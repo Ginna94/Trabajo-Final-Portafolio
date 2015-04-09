@@ -2,82 +2,126 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Portafolio Ginna Solano</title>
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="normalize.css">
   <link rel="stylesheet" type="text/css" href="js/script.js">
 </head>
 <body>
   <div class="wrapper">
-    <div class="contenedor">
-      <header>
-        <h1>Ginna Solano</h1>
-        <h2 class="title-principal title">Diseñadora y Desarrolladora Web</h2>
-      </header>
-      <nav class="contenedor-nav">
-        <ul>
-          <li><a href="">Inicio</a></li>
-          <li><a href="">Proyectos</a></li>
-          <li><a href="">Acerca de</a></li>
-          <li><a href="">Contacto</a></li>
-        </ul>
-      </nav>
-      <section class="container-acerca-de-mi">
-        <h2 class="title-acerca title">Acerca de mi</h2>
+    <div class="container">
+      <header class="header">
+        <div class="container-header">
+        <h1 class="title-main-name title">Ginna Solano</h1>
+        <h2 class="title">Diseñadora y Desarrolladora Web</h2>
+         <nav class="nav-main">
+           <ul class="list-nav-main">
+             <li><a href="">Inicio</a></li>
+             <li><a href="">Proyectos</a></li>
+             <li><a href="">Acerca de</a></li>
+             <li><a href="">Contacto</a></li>
+           </ul>
+         </nav>
+         </div><!--container-header-->
+      </header> 
+      <div class="about-me">
+       <section class="container-info-about-me ">
+        <h2 class="title-about-me title">Acerca de mi</h2>
         <p>Soy una persona que le gusta lo que hace, me encanta desarrollar 
          aprender cosas nuevas, trabajar en equipo soy de las personas que
          aprende de los demás de igual manera me gusta ayudar.</p>
-         <div class="contenedor-habilidades">
-         <h2 class="title-habilidades title">Habilidades</h2>
-          <ul class="skill-1">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Javascript</li>
-          </ul>
-          <ul class="skill-2">
-            <li>PHP</li>
-            <li>Photoshop</li>
-            <li>Ilustrador</li>
-            </ul>
-           </div><!--contenedor-habilidades-->
-       </section><!--container-acerca-de-mi-->
-       <section class="container-proyectos">
-         <h2 class="title-proyectos title">Proyectos</h2>
-          <ul>
+         <div class="skills">
+         <div class="container-skill">
+         <h2 class="title-skill title">Habilidades</h2>
+           <ul class="list-skill-first">
+            <li><button class="button-pill-skills">HTML</button></li>
+            <li><button class="button-pill-skills">CSS</button></li>
+            <li><button class="button-pill-skills">Javascript</button></li>
+           </ul>
+           <ul class="list-skill-second">
+            <li><button class="button-pill-skills">PHP</button></li>
+            <li><button class="button-pill-skills">Photoshop</button></li>
+            <li><button class="button-pill-skills">Ilustrador</button></li>
+           </ul>
+          </div><!--container-skill-->
+        </div><!--skills-->
+       </section><!--container-info-about-me-->
+       </div><!--about-me-->
+       <section class="container-project">
+         <h2 class="title-project title">Proyectos</h2>
+          <ul class="list-project-first-column">
             <li>
-              <div><h3>Proyecto 1</h3></div>
-              <div><h3>Proyecto 2</h3></div>
-              <div><h3>Proyecto 3</h3></div>
+              <div>
+                <h3>Proyecto 1</h3><br/>
+                 <img src="img/projects.png" alt="">
+              </div>
+              <div>
+                <h3>Proyecto 2</h3><br/>
+                <img src="img/projects.png" alt="">
+              </div>
+              <div>
+                <h3>Proyecto 3</h3><br/>
+                <img src="img/projects.png" alt="">
+              </div>
             </li>
           </ul>
-          <ul>
+          <ul class="list-project-second-column">
             <li>
-              <div><h3>Proyecto 4</h3></div>
-              <div><h3>Proyecto 5</h3></div>
-              <div><h3>Proyecto 6</h3></div>
+              <div>
+                <h3>Proyecto 4</h3><br/>
+                <img src="img/projects.png" alt="">
+              </div>
+              <div>
+                <h3>Proyecto 5</h3><br/>
+                <img src="img/projects.png" alt="">
+              </div>
+              <div><h3>Proyecto 6</h3><br/>
+                <img src="img/projects.png" alt="">
+              </div>
             </li>
           </ul>
-        </section><!--container-proyectos-->
-        <footer class="contacto">
-          <h2 class="title-contacto title">Contacto</h2>
+           <ul class="list-project-third-column">
+            <li>
+              <div>
+                <h3>Proyecto 7</h3><br/>
+                <img src="img/projects.png" alt="">
+              </div>
+              <div>
+                <h3>Proyecto 8</h3><br/>
+                <img src="img/projects.png" alt="">
+              </div>
+              <div><h3>Proyecto 9</h3><br/>
+                <img src="img/projects.png" alt="">
+              </div>
+            </li>
+          </ul>
+        </section><!--container-project-->
+        <footer class="contact">
+          <div class="container-footer">
+          <h2 class="title-contact title">Contacto</h2>
            <form action="php" method="post">
-              <label for="nombre">Nombre</label><br/>
-              <input type="text" id="nombre"  /><br/>
-              <label for="e-mail">Email</label><br/>
-              <input type="text" id="e-mail" /><br/>
-              <label for="mensaje">Mensaje</label><br/>
-              <textarea id="mensaje" cols="30" rows="5"> </textarea><br/>
-              <button>Enviar</button>
-              <p>Correo: ginnasr94@gmail.com</p>
-              <p>Telefono: 8812-4456</p>
+            <div class="contacto">
+              <input type="text" class="nombre" placeholder="Nombre" />
+              <input type="text" class="email" placeholder="Email"/><br/>
+            </div><!--contacto-->
+              <textarea class="message" cols="50" rows="7" placeholder="Mensaje"></textarea><br/>
+              <button class="button-square">Enviar</button>
+              <div class="div-border"></div>
+              <div class="contact-personal-information">
+                <p>Telefono: 8651-4210</p>
+                <p>E-mail: ginnasr94@gmail.com</p>
+                <p>Dirección: San José, Puriscal</p>
+              </div><!--contact-personal-information-->
             </form>
-            <div class="redes-sociales">
-              <img src="" alt="">Facebook
-              <img src="" alt="">Youtube
-              <img src="" alt="">Twitter
-              <img src="" alt="">Github
-            </div>
+           </div><!--container-footer-->
          </footer>
-      </div><!--contenedor-->
+         <div class="social-media">
+          <div class="content-social-media">
+              <img src="img/facebook.png" alt="">
+              <img src="img/twitter.png" alt="">
+              <img src="img/github.png" alt="">
+            </div><!--content-social-media-->
+        </div><!--social-media-->
+      </div><!--container-->
    </div><!--wrapper-->
 </body>
 </html>
