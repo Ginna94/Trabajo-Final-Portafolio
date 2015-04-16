@@ -1,14 +1,33 @@
-.header{
-  background: url(../img/background.jpg) no-repeat;
+.header-main {
+  background: url(../img/fondo-background.jpg) no-repeat;
   background-size: cover;
   height: $max-height;
   overflow: hidden;
+
 }
 
-.container-header{
-	background-color: rgba(22,21,21,0.7);
-	height: $max-height;
-	overflow: hidden;
+.container-header {
+  background-color: rgba(22,21,21,0.7);
+  height: $max-height;
+  overflow: hidden;
+  
 }
+
+.container-header-logo {
+  -webkit-animation-duration:5s;
+  -webkit-animation-delay:0.1s;
+  box-shadow:1px 1px 1px 1px #ccc;
+
+}
+
+.container-header-logo {
+  float:left;
+  padding: 2px;
+  width: 100px;
+  margin-top: 49px;
+  margin-left: 64px;
+}
+
+
 
 

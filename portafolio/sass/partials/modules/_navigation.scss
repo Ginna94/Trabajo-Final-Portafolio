@@ -1,0 +1,31 @@
+
+.nav-main-list {
+	margin: 0;
+
+}
+
+.nav-main-list li {
+  display: inline-block;
+  padding: 20px;
+  
+}
+
+.nav-main-list a {
+  text-decoration: none;
+  color: $blanco;
+
+}
+
+.nav-main {
+  background-color: rgba(22,21,21,0.7);
+  margin-top: 265px;
+  height: 62px;
+  text-align: center;
+
+}
+
+.nav-main li:hover {
+  background-color: $rosado;
+  height: 23px;
+}
+

@@ -1,6 +1,5 @@
 // #titles
 .title {
-  
   color: $blanco;
   font-family: $sans;
   text-align: center;
@@ -10,21 +9,26 @@
   margin-top: 203px;
 }
 
-.title-skill {
+.title-skills {
   color: $gris-title;
 }
 
 .title-project {
   color: $gris-title;
-  margin-top: 58px;
+  margin-top: 77px;
+  height: 51px;
+
 }
 
 .title-about-me {
-   margin-top: 64px;
+  margin-top: 78px;
+
 }
 
-.title-contact{
-   padding: 39px;
+.title-contact {
+  padding: 47px;
+  height: 36px;
+  text-align: center;
 }
-// inputs
+
 

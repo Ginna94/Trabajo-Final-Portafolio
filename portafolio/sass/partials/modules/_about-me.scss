@@ -1,69 +1,79 @@
 
-.container-info-about-me {
+.container-about-me-info {
     max-width: 900px;
     margin: 0 auto;
 
 }
 
-.container-info-about-me p {
+.container-about-me-info p {
 	text-align:center;
+
 }
 
-.about-me {
+.container-about-me {
     background-color:$rosado;
     overflow:hidden;
     color:$blanco;
-    height: 500px;
+    height: 653px;
 
  }
+
+ .about-me-img {
+    width: 10px;
+    height: 10px;
+ }
+
+ .about-me-text {
+    margin-top: 44px;
+
+ }
+
 
  .skills {
- 	background-color:$blanco;
- 	color: $gris-oscuro;
- 	border-radius: 5px;
- 	height: 255px;
+    background-color:$blanco;
+    color: $gris-oscuro;
+    height: 284px;
+    box-shadow: -1px 7px 20px #A3405F, 
+                -1px 9px 15px #A3405F;
 
  }
 
- .container-skill ul {
+ .container-skills ul {
  	list-style: none;
  	margin-top: -178px;
 
  }
 
-.container-skill {
+.container-skills {
 	text-align: center;
 	padding: 10px;
 	margin-top: 39px;
 
 }
 
-.list-skill-first {
+.list-skills-first {
     display: inline-block;
     padding: 93px;
 	
 }
 
-.list-skill-second {
+.list-skills-second {
 	display: inline-block;
 	padding: 190px;
 
-
 }
 
-.button-pill-skills {
-	border-radius:10px;
-	padding: 9px;
-	width:214%;
-	background-color: $rosado;
-	color:$gris-title;
-	border:none;
-	margin-top: 5px;
-   
+.text-button-skills {
+    display: inline-block;
+    width: 25%;
+    position: absolute;
+    margin-top: -30px;
+    color: $rosado;
 }
 
-
-
+.text-button-skills {
+    display: none;
+}
 
 
 

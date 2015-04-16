@@ -2,108 +2,67 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Portafolio Ginna Solano</title>
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
   <link rel="stylesheet" type="text/css" href="normalize.css">
-  <link rel="stylesheet" type="text/css" href="js/script.js">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
 </head>
 <body>
   <div class="wrapper">
-    <div class="container">
-      <header class="header">
+    <div class="container-main">
+      <header id="home" class="header-main">
         <div class="container-header">
-        <h1 class="title-main-name title">Ginna Solano</h1>
-        <h2 class="title">Diseñadora y Desarrolladora Web</h2>
+          <img class="container-header-logo animated rotateIn"src="img/logo.png" alt="">
+        <h1 class="title-main-name title animated pulse">Ginna Solano</h1>
+        <h2 class="title title-header-ocupation">Diseñadora y Desarrolladora Web</h2>
          <nav class="nav-main">
-           <ul class="list-nav-main">
-             <li><a href="">Inicio</a></li>
-             <li><a href="">Proyectos</a></li>
-             <li><a href="">Acerca de</a></li>
-             <li><a href="">Contacto</a></li>
+           <ul class="nav-main-list">
+             <li><a href="#home">Inicio</a></li>
+             <li><a href="#container-project">Proyectos</a></li>
+             <li><a href="#about-me">Acerca de</a></li>
+             <li><a href="#contact">Contacto</a></li>
            </ul>
          </nav>
          </div><!--container-header-->
       </header> 
-      <div class="about-me">
-       <section class="container-info-about-me ">
-        <h2 class="title-about-me title">Acerca de mi</h2>
-        <p>Soy una persona que le gusta lo que hace, me encanta desarrollar 
+      <div id="about-me" class="container-about-me">
+       <section class="container-about-me-info">
+        <h2 class="title title-about-me ">Acerca de mi</h2>
+         <p class="about-me-text">Soy una persona que le gusta lo que hace, me encanta desarrollar 
          aprender cosas nuevas, trabajar en equipo soy de las personas que
          aprende de los demás de igual manera me gusta ayudar.</p>
          <div class="skills">
-         <div class="container-skill">
-         <h2 class="title-skill title">Habilidades</h2>
-           <ul class="list-skill-first">
-            <li><button class="button-pill-skills">HTML</button></li>
-            <li><button class="button-pill-skills">CSS</button></li>
-            <li><button class="button-pill-skills">Javascript</button></li>
+         <div class="container-skills">
+         <h2 class="title title-skills ">Habilidades</h2>
+           <ul class="list-skills-first">
+            <li><button class="button-pill-skills button-pill-skills-html">HTML</button><p class="text-button-skills">90%</p></li> 
+            <li><button class="button-pill-skills button-pill-skills-css">CSS</button><p class="text-button-skills">80%</p></li>
+            <li><button class="button-pill-skills button-pill-skills-javascript">Javascript</button><p class="text-button-skills">70%</p></li>
            </ul>
-           <ul class="list-skill-second">
-            <li><button class="button-pill-skills">PHP</button></li>
-            <li><button class="button-pill-skills">Photoshop</button></li>
-            <li><button class="button-pill-skills">Ilustrador</button></li>
+           <ul class="list-skills-second">
+            <li><button class="button-pill-skills button-pill-skills-php">PHP</button><p class="text-button-skills">50%</p></li>
+            <li><button class="button-pill-skills button-pill-skills-photoshop">Photoshop</button><p class="text-button-skills">70%</p></li>
+            <li><button class="button-pill-skills button-pill-skills-ilustrador">Ilustrador</button><p class="text-button-skills">50%</p></li>
            </ul>
-          </div><!--container-skill-->
+          </div><!--container-skills-->
         </div><!--skills-->
-       </section><!--container-info-about-me-->
-       </div><!--about-me-->
-       <section class="container-project">
-         <h2 class="title-project title">Proyectos</h2>
+       </section><!--container-about-me-info-->
+       </div><!--container-about-me-->
+       <section id="container-project" class="container-project">
+         <h2 class="title title-project">Proyectos</h2>
           <ul class="list-project-first-column">
-            <li>
-              <div>
-                <h3>Proyecto 1</h3><br/>
-                 <img src="img/projects.png" alt="">
-              </div>
-              <div>
-                <h3>Proyecto 2</h3><br/>
-                <img src="img/projects.png" alt="">
-              </div>
-              <div>
-                <h3>Proyecto 3</h3><br/>
-                <img src="img/projects.png" alt="">
-              </div>
-            </li>
-          </ul>
-          <ul class="list-project-second-column">
-            <li>
-              <div>
-                <h3>Proyecto 4</h3><br/>
-                <img src="img/projects.png" alt="">
-              </div>
-              <div>
-                <h3>Proyecto 5</h3><br/>
-                <img src="img/projects.png" alt="">
-              </div>
-              <div><h3>Proyecto 6</h3><br/>
-                <img src="img/projects.png" alt="">
-              </div>
-            </li>
-          </ul>
-           <ul class="list-project-third-column">
-            <li>
-              <div>
-                <h3>Proyecto 7</h3><br/>
-                <img src="img/projects.png" alt="">
-              </div>
-              <div>
-                <h3>Proyecto 8</h3><br/>
-                <img src="img/projects.png" alt="">
-              </div>
-              <div><h3>Proyecto 9</h3><br/>
-                <img src="img/projects.png" alt="">
-              </div>
-            </li>
+             <!--Los li van incluidos por el Js-->
           </ul>
         </section><!--container-project-->
-        <footer class="contact">
-          <div class="container-footer">
-          <h2 class="title-contact title">Contacto</h2>
+        <footer id="contact" class="footer-contact">
+          <div class="footer-contact-container">
+          <div class="footer-contact-container-info">
+          <h2 class="title title-contact">Contacto</h2>
            <form action="php" method="post">
             <div class="contacto">
-              <input type="text" class="nombre" placeholder="Nombre" />
-              <input type="text" class="email" placeholder="Email"/><br/>
-            </div><!--contacto-->
-              <textarea class="message" cols="50" rows="7" placeholder="Mensaje"></textarea><br/>
+              <input id="nombre" type="text" class="nombre" placeholder="Nombre" />
+              <input id="email" type="text" class="email" placeholder="Email"/><br/>
+            </div><!--footer-contact-->
+              <textarea class="message" cols="49" rows="7" placeholder="Mensaje"></textarea><br/>
               <button class="button-square">Enviar</button>
               <div class="div-border"></div>
               <div class="contact-personal-information">
@@ -112,16 +71,18 @@
                 <p>Dirección: San José, Puriscal</p>
               </div><!--contact-personal-information-->
             </form>
-           </div><!--container-footer-->
+           </div><!--footer-contact-container-info-->
+         </div><!--footer-contact-container-->
          </footer>
-         <div class="social-media">
-          <div class="content-social-media">
-              <img src="img/facebook.png" alt="">
-              <img src="img/twitter.png" alt="">
-              <img src="img/github.png" alt="">
-            </div><!--content-social-media-->
-        </div><!--social-media-->
-      </div><!--container-->
+         <div class="social-network">
+          <div class="content-social-network">
+              <img class="social-network-facebook" src="img/facebook.png" alt="">
+              <img class="social-network-twitter"src="img/twitter.png" alt="">
+              <img class="social-network-github"src="img/github.png" alt="">
+            </div><!--content-social-network-->
+        </div><!--social-network-->
+      </div><!--container-main-->
    </div><!--wrapper-->
+ <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>

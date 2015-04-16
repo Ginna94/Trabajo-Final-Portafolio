@@ -1,50 +1,54 @@
-.contact {
-  background-color:$turquesa;
-  overflow: hidden;
+
+.footer-contact {
+  background: url(../img/fondo-background.jpg) no-repeat;
+  background-size: cover;
+  background-color: rgba(22,21,21,0.7);
 	
 }
 
-.container-footer {
+.footer-contact-container {
+  background-color: rgba(22,21,21,0.7);
+  overflow: hidden;
+}
+
+.footer-contact-container-info {
   max-width:900px;
   margin:0 auto;
-
+  height: 450px;
 }
 
 .email {
-	  margin-left: 10px;
+	margin-left: 11px;
+  height: 30px;
+  width: 200px;
+}
+
+.nombre {
+  margin-left: 1px;
+  height: 30px;
+  width: 200px;
 }
 
 .message {
 	margin-top: 5px;
 }
 
-.contacto input ,textarea{
-   background-color:$turquesa;
-   border: 1px solid $blanco ;
-   color: $blanco;
-}
-
 .nombre::-webkit-input-placeholder { color: $blanco; }
 .email::-webkit-input-placeholder { color: $blanco; }
 .message::-webkit-input-placeholder { color: $blanco; }
 
-.button-square {
-   height: 34px;
-   width: 87px;
-   color: $turquesa;
-   background-color:$blanco;
+.footer-contact  input ,textarea{
+   background-color: rgba(22,21,21,-0.4);
    border: 1px solid $blanco ;
-   margin-top: 9px;
-   font-size: 17.5px;
+   color: $blanco;
 }
 
 .contact-personal-information {
    float:right;
-   margin-top: -210px;
+   margin-top: -190px;
    color: $blanco;
    display: inline-block;
 }
-
 
 .div-border {   
   border-left: 1px solid #ccc;
@@ -52,21 +56,22 @@
   height: 200px;
   display: inline-block;
   margin-top: -211px;
-  margin-left: 443px;
+  margin-left: 387px;
 } 
 
-.social-media {
+.social-network {
   background-color:$gris-oscuro;
   height: 80px;
+
 }
 
-.content-social-media {
+.content-social-network {
   max-width:900px;
   margin:0 auto;
   text-align: center;
 }
 
-.content-social-media img {
+.content-social-network img {
   width: 6%;
   height: 56%;
   margin-top:-1px;
