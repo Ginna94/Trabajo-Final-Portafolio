@@ -1,4 +1,43 @@
 
+
+/*////////////////////////////////////// Validación /////////////////////////////////////////////////*/
+
+var Appformulario={};
+
+ Appformulario.validacion = function(){
+   
+    return {
+         validarPalabras: function(){
+          var nombre = document.getElementById("nombre").value;
+          var email = document.getElementById("email").value;
+          var mensaje=document.getElementById("mensaje").value;
+          guardar = [];
+  
+          var signos = /^([a-zA-Z0-9_.-])+@(([a-zA-z0-9-])+.)+([a-zA-Z0-9-]{2,4})+$/ ;
+
+             if( nombre == null || nombre.length == 0 || email == null || email.length == 0 || mensaje == null || mensaje.length == 0){
+               alert("Dejo uno o varios espacios sin completar");
+                 return false;
+            }
+
+            if(!signos.test(email)){
+               alert("Revisa tu correo");
+                 return false;
+            }else{
+              guardar.push(nombre,email,mensaje);
+              document.getElementById("form").reset();
+              alert("Mensaje enviado");
+              console.log(form);
+              return false;
+            }
+           }//validarpalabras
+         }//return*/
+
+}();
+
+    /*////////////////////////////////////// Ajax /////////////////////////////////////////////////*/
+
+
 function ajaxRequest(){
 
 var mygetrequest =new XMLHttpRequest();
@@ -24,26 +63,6 @@ ajaxRequest();
 
 
 
-/*////////////////////////////////////// Validación /////////////////////////////////////////////////*/
 
 
 
-
-function validacion(val){
-      var elemento = document.getElementById(val);
-      if(elemento.checkValidity())
-          elemento.style.borderColor="Aqua";
-      else
-          elemento.style.borderColor = "red";
-    }
-    function buttonAction()
-    {
-      var nombreVal=document.getElementById('nombre').checkValidity();
-      var emailVal=document.getElementById('email').checkValidity();
-
-      if(nombreVal && emailVal){
-        alert("Su informacion fue enviada exitosamente");
-      } else{
-        alert("Por Favor revise sus campos.");
-      }   
-    }

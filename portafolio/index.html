@@ -57,13 +57,13 @@
           <div class="footer-contact-container">
           <div class="footer-contact-container-info">
           <h2 class="title title-contact">Contacto</h2>
-           <form action="php" method="post">
+           <form id="form" action="php" method="post">
             <div class="contacto">
               <input id="nombre" type="text" class="nombre" placeholder="Nombre" />
               <input id="email" type="text" class="email" placeholder="Email"/><br/>
             </div><!--footer-contact-->
-              <textarea class="message" cols="49" rows="7" placeholder="Mensaje"></textarea><br/>
-              <button class="button-square">Enviar</button>
+              <textarea id="mensaje" class="message" cols="44" rows="7" placeholder="Mensaje"></textarea><br/>
+              <button onclick = "Appformulario.validacion.validarPalabras();" class="button-square">Enviar</button>
               <div class="div-border"></div>
               <div class="contact-personal-information">
                 <p>Telefono: 8651-4210</p>
