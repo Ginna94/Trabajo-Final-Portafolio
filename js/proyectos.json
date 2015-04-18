@@ -1,0 +1,38 @@
+{
+	"nombre" : "Lista de Proyectos",
+	"Proyectos":[
+						{	
+							"Nombre":"La Iluminada",
+							"img":"img/proyectos.png",
+							"imgmore":"img/more.png"
+						},
+						{
+							"Nombre":"La Iliminada",
+							"img":"img/proyectos.png",
+							"imgmore":"img/more.png"
+						},
+						
+						{
+							"Nombre":"La Iliminada",
+							"img":"img/proyectos.png",
+							"imgmore":"img/more.png"
+					
+						},
+						{
+							"Nombre":"La Iliminada",
+							"img":"img/proyectos.png",
+							"imgmore":"img/more.png"
+						},
+						{
+							"Nombre":"La Iluminada",
+							"img":"img/proyectos.png",
+							"imgmore":"img/more.png"
+						},
+						{
+							"Nombre":"La Iluminada",
+							"img":"img/proyectos.png",
+							"imgmore":"img/more.png"
+						}
+				]
+				
+}

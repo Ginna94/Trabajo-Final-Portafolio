@@ -1,0 +1,62 @@
+
+.button-square {
+  height: 34px;
+  width: 147px;
+  color: #FCFCFC;
+  background-color: #CD929D;
+  margin-top: 9px;
+  font-size: 17.5px;
+  border: none;
+   
+}
+
+.button-pill-skills {
+
+  color: #3A352C;
+  border: 1px solid #CD929D;
+  padding: 10px;
+  width: 195%;
+  margin-top: 5px;    
+}
+
+.button-pill-skills:hover .text-button-skills-12 {
+		
+ display: inline-block;
+ background-color: #ccc;
+
+}
+
+.button-pill-skills-html {
+ background: -webkit-linear-gradient(left, $rosado 90%,$rosado 90%,$rosado 90%,$rosado 90%,$blanco 90%);/* Chrome10+,Safari5.1+ */
+ background: -moz-linear-gradient(left, $rosado 90%,$rosado 90%,$rosado 90%,$rosado 90%,$blanco 90%); 
+
+}
+
+.button-pill-skills-css {
+ background: -webkit-linear-gradient(left, $rosado 80%,$rosado 80%,$rosado 80%,$rosado 80%,$blanco 80%); /* Chrome10+,Safari5.1+ */
+ background: -moz-linear-gradient(left, $rosado 80%,$rosado 80%,$rosado 80%,$rosado 80%,$blanco 80%);        
+}
+
+.button-pill-skills-javascript {
+ background: -webkit-linear-gradient(left, $rosado 60%,$rosado 60%,$rosado 60%,$rosado 60%,$blanco 60%); /* Chrome10+,Safari5.1+ */
+ background: -moz-linear-gradient(left, $rosado 60%,$rosado 60%,$rosado 60%,$rosado 60%,$blanco 60%);
+}
+
+.button-pill-skills-php {
+ background: -webkit-linear-gradient(left, $rosado 50%,$rosado 50%,$rosado 50%,$rosado 50%,$blanco 50%); /* Chrome10+,Safari5.1+ */
+ background: -moz-linear-gradient(left, $rosado 50%,$rosado 50%,$rosado 50%,$rosado 50%,$blanco 50%);
+}
+
+.button-pill-skills-photoshop {
+ background: -webkit-linear-gradient(left, $rosado 70%,$rosado 70%,$rosado 70%,$rosado 70%,$blanco 70%); /* Chrome10+,Safari5.1+ */
+ background: -moz-linear-gradient(left, $rosado 70%,$rosado 70%,$rosado 70%,$rosado 70%,$blanco 70%);
+
+}
+
+.button-pill-skills-ilustrador {
+ background: -webkit-linear-gradient(left, $rosado 50%,$rosado 50%,$rosado 50%,$rosado 50%,$blanco 50%); /* Chrome10+,Safari5.1+ */
+ background: -moz-linear-gradient(left, $rosado 70%,$rosado 70%,$rosado 70%,$rosado 70%,$blanco 70%);
+}
+
+
+
